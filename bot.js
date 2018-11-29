@@ -4,7 +4,7 @@ const client = new Discord.Client();
 var ServerID = "505995244672909323"; 
 var ChannelID = "515405500339191809";
 
-
+const prefix = ".";
     console.log(`Online`);
     console.log(`Online`);
 client.on('ready', async() => {
